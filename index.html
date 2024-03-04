@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors game</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/game_fav.png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="scores-section">
+        <div class="title">
+          <h1 class="rock-title">ROCK</h1>
+          <h1 class="paper-title">PAPER</h1>
+          <h1 class="scissors-title">SCISSORS</h1>
+        </div>
+        <div class="scores">
+          <div class="cs">
+            <p class="cs-para">COMPUTER <br />&nbsp;&nbsp;&nbsp; SCORE</p>
+            <h1 class="cs-score">&nbsp;&nbsp;&nbsp;&nbsp;0</h1>
+          </div>
+
+          <div class="y">
+            <p class="y-para">&nbsp;YOUR <br />SCORE
+            </p>
+            <h1 class="y-score">&nbsp;&nbsp;0</h1>
+          </div>
+        </div>
+      </div>
+      <div class="lower-half">
+        <div class="gestures-icons">
+          <div class="row-icons">
+            <div class="stone">
+              <img src="assets/stone.png" alt="" class="stone-icon" />
+            </div>
+            <div class="scissor">
+              <img src="assets/scissor.png" alt="" class="scissor-icon" />
+            </div>
+          </div>
+          <div class="paper">
+            <img src="assets/paper.png" alt="" class="paper-icon" />
+          </div>
+        </div>
+        <div class="lines">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+        <div class="rules">
+          <h1 class="title-rules">RULES</h1>
+          <div class="cross">
+            <img src="assets/X.png" alt="" class="cross-img" />
+          </div>
+
+          <div id="modal">
+            <div class="modal-content">
+              <h1 class="title-game-rules">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Game Rules
+              </h1>
+              <ul class="rules-items">
+                <li class="each-rule">
+                  <span class="li-item"
+                    >Rock beats scissors, scissors beat paper, and paper beats
+                    rock.</span
+                  >
+                </li>
+                <li class="each-rule">
+                  <span class="li-item"
+                    >Agree ahead of time whether you’ll count off “rock, paper,
+                    scissors, shoot” or just “rock, paper, scissors.”</span
+                  >
+                </li>
+                <li class="each-rule">
+                  <span class="li-item"
+                    >Use rock, paper, scissors to settle minor decisions or
+                    simply play to pass the time.</span
+                  >
+                </li>
+                <li class="each-rule">
+                  <span class="li-item">
+                    If both players lay down the same hand, each player lays
+                    down another hand.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
