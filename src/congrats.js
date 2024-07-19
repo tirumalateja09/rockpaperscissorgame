@@ -2,10 +2,10 @@
 // For modal show up and close[pending,
 //its is getting closed(modal) by window, not by close]
 
-var btnRules = document.getElementsByClassName("rules")[0];
-var modal = document.getElementById("modal");
-var cross = document.getElementsByClassName("cross")[0];
-var close = document.getElementsByClassName("cross-img")[0];
+let btnRules = document.getElementsByClassName("rules")[0];
+let modal = document.getElementById("modal");
+let cross = document.getElementsByClassName("cross")[0];
+let close = document.getElementsByClassName("cross-img")[0];
 
 btnRules.addEventListener("click", () => {
   modal.style.display = "block";
