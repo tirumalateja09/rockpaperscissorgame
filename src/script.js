@@ -5,6 +5,9 @@
 let btnRules = document.getElementsByClassName("rules")[0];
 let modal = document.getElementById("modal");
 let cross = document.getElementsByClassName("cross")[0];
+// console.log(cross);
+// let cross = document.querySelector("cross");
+// console.log(cross);
 let close = document.getElementsByClassName("cross-img")[0];
 
 btnRules.addEventListener("click", () => {
@@ -13,7 +16,7 @@ btnRules.addEventListener("click", () => {
 });
 
 window.onclick = function (event) {
-  if (event.target == modal) {
+  if (event.target.close || event.target == cross  ) {
     modal.style.display = "none";
     cross.style.display = "none";
   }
