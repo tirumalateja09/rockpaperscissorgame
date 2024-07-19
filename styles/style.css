@@ -55,13 +55,13 @@ body {
 .gestures-icons{
     position: absolute;
     top: 300%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%,110%);
 }
 
 .row-icons{
     display: flex;
-    gap: 150px;
+    gap: 160px;
 }
 
 .stone, .scissor, .paper{
@@ -84,7 +84,7 @@ body {
 
 .paper {
     border: 16px solid #FFA943;
-    margin-left: 150px;
+    margin-left: 160px;
     margin-top: 50px;
 }
 
@@ -120,7 +120,7 @@ body {
     width: 150.91px;
     height: 0px;
     border: 15px solid rgba(0, 0, 0, 0.64);
-    transform: rotate(0deg);
+    transform: rotate(1deg);
     z-index: -1;
     margin-top: 80px;
     top: 340px;
@@ -129,10 +129,10 @@ body {
 
 .line3{
     position: absolute;
-    width: 150.91px;
+    width: 160.91px;
     height: 0px;
     border: 15px solid rgba(0, 0, 0, 0.64);
-    transform: rotate(-60deg);
+    transform: rotate(-55deg);
     z-index: -1;
     margin-top: 80px;
     top: 420px;
